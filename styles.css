@@ -6,7 +6,7 @@ body{
 
 }
 #container{
-    width: 800px;
+    width: 1100px;
     margin: 0 auto;
     background-color: rgb(0, 133, 7);
     padding: 40px;
@@ -51,4 +51,58 @@ a:active{
 }
 h3:hover{
     border-color:red;
+}
+#sidebar{
+    background-color: black;
+    width: 225px;
+    float: right;
+    border: 2px solid white;
+    margin: 15px;
+    margin-top: 30px;
+    line-height: 2.25em;
+}
+#sidebar h3{
+    padding: 5px;
+    width: 100px;
+    background: none; 
+    color:rgb(0, 133, 7);
+    text-decoration: underline;
+    font-size: 1.5em;
+    margin: 5px;
+    border: none;
+}
+@media (max-width:1200px){
+    #container{
+        background-color: red;
+        width: 800px;
+    }
+}
+@media (max-width: 992px){
+    #container{
+        width: 100%;
+    }
+    #container, p{
+        margin:0;
+        padding:0;
+        border:none;
+    }
+    body,h1,h2,h3,p,div,hr{
+        background-color:rgb(0, 133, 7)
+    }
+    body{
+        padding: 20px;
+    }
+}
+@media (max-width:768px){
+    #sidebar{
+        display:none;
+    }
+    img,#pic1,#pic2{
+        float:none;
+        border:none;
+        width:100%;
+    }
+    h3{
+        margin: 10px auto;
+    }
 }
