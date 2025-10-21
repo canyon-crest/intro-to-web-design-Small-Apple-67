@@ -1,5 +1,5 @@
 body{
-    background-color:gray;
+    background-image: url('images/mountain.jpg');
     color: #fff;
     font-family:arial;
     border-radius: 15px;
@@ -8,12 +8,13 @@ body{
 #container{
     width: 1100px;
     margin: 0 auto;
-    background-color: rgb(0, 133, 7);
+    background-color: rgba(0, 133, 7, 0.6);
     padding: 40px;
     border-left: #000 solid 4px;
     border-right: #000 solid 4px;
     border-top: #000 solid 4px;
     border-bottom: #000 solid 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.45), 0 3px 6px rgba(0,0,0,0.25);
 }
 h1{
     background-color:black;
@@ -73,8 +74,10 @@ h3:hover{
 }
 @media (max-width:1200px){
     #container{
-        background-color: red;
+        background-image: url('url(images/mountain2.jpg)');
+        background-color:rgba(255, 0, 0,0.6);
         width: 800px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.45), 0 3px 6px rgba(0,0,0,0.25);
     }
 }
 @media (max-width: 992px){
@@ -85,9 +88,6 @@ h3:hover{
         margin:0;
         padding:0;
         border:none;
-    }
-    body,h1,h2,h3,p,div,hr{
-        background-color:rgb(0, 133, 7)
     }
     body{
         padding: 20px;
