@@ -106,3 +106,15 @@ h3:hover{
         margin: 10px auto;
     }
 }
+.highlight{
+    background: rgb(156, 232, 194);
+    color: black;
+    padding: 4px;
+    border-radius: 5px;
+}
+.bold{
+    font-weight: bold;
+}
+.underline{
+    text-decoration: underline;
+}
